@@ -1,0 +1,16 @@
+{
+  "name": "db.epolite.net",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/DuelingBots.js",
+  "scripts": {
+    "test": "tsc -b --verbose && node ./dist/DuelingBots.js"
+  },
+  "keywords": [],
+  "author": "Alexander Epolite <alexander@epolite.net>",
+  "dependencies": {
+    "@types/node": "^16.11.10",
+    "@types/ws": "^8.2.0",
+    "ws": "^8.3.0"
+  }
+}
